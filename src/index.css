@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-vermelho: #db0007;
+    --color-marinho: #063672;
+    --color-ouro: #9c824a;
+    --color-giz: #fafaf7;
+    --color-cinza: #5b6472;
+    --font-titulo: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --font-corpo: "Barlow", system-ui, sans-serif;
+}
+
+body {
+    @apply bg-giz text-marinho font-corpo;
+}
